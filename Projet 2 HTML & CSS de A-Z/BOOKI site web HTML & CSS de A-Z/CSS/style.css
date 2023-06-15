@@ -1,0 +1,512 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    max-width: 1400px;
+}
+
+h2 {
+margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    justify-content: space-between;
+}
+
+.headerImg {
+    margin-left: 30px;
+    height: 1.5rem;
+}
+
+.headerNav {
+    display: flex;
+    align-items: center;
+}
+
+.headerNavLink:hover {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+}
+.headerNavLink {
+    border-top: 3px solid white;
+    padding: 30px;
+    align-items: center;
+
+}
+
+
+
+.main {
+    max-width: 1440px;
+    padding: 0 30px;
+}
+
+.h1 {
+    margin-bottom: auto;
+}
+
+.searchForm {
+    display: flex;
+    max-width: 100%;
+}
+
+.searchFormIcon {
+    background-color: #f2f2f2;
+    padding: 20px; 
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+}
+
+.searchFormInput {
+    border-left: none;
+    border-right: none;
+    border-top: #f2f2f2 1px solid;
+    border-bottom: #f2f2f2 1px solid;
+    padding: 0 20px;
+    width: 20%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.searchFormSubmitInput {
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none; 
+    border-radius: 0 1rem 1rem 0;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.seachFormSubmitInputText {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+
+}
+
+
+.searchFilters {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.searchFiltersTitle {
+    margin: 0 30px 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.searchFiltersFilter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 30px;
+    border: 2px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.searchFiltersFilterWrapIcon {
+    color: #0065FC;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+
+}
+
+.searchFiltersFilterTitle {
+    margin-right: 20px;
+}
+
+.searchFiltersFilter:hover {
+    background-color: #deebff;
+}
+
+
+
+.searchResult {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px 30px 0px;
+}
+
+.searchResultWrapIcon {
+    color: #0065FC;
+    height: 25px;
+    width: 25px;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+
+
+
+.hostingMarseille {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 65%;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.hosting{
+    display: flex;
+    gap: 30px;
+}
+
+.hostingMain {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-between;
+}
+
+.hostingMainCard {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 16px #0000002e;
+    width: calc((100% - 60px) / 3);
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 5px solid white;
+}
+
+.hostingMainCardImg {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.hostingMainCardTitle {
+    margin: 5px;
+}
+
+.hostingMainCardText {
+    margin: 5px;
+}
+
+.hostingMainCardIcon {
+    margin: 5px ;
+    color: #0065FC;
+    font-size: small;
+}
+
+
+.hostingMainMore {
+font-weight: bold;
+margin-top: 20px;
+
+}
+
+.hostingMainGreyStar {
+    color: lightgray;
+}
+
+.hostingMainViewMore1 {
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+.logoPopular {
+    color: #0065FC;
+}
+
+.hostingPopular {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.hostingPopularTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hostingPopularCard {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    border: solid white;
+    overflow: hidden;
+    box-shadow: 0 0 16px #0000002e;
+}
+
+.hostingPopularCardImg {
+    height: 145px;
+    width: 40%;
+    display: block;
+    object-fit: cover;
+}
+
+.hostingPopularCardTitle {
+    margin: 5px 10px;
+}
+
+
+.hostingPopularCardText {
+    margin: 5px 10px;
+}
+
+.hostingPopularCardIcon {
+    margin: 5px 10px;
+    color: #0065FC;
+    font-size: small;
+}
+.hostingPopularAlign {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+.activityTitle {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.activityMarseille {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    gap: 30px;
+}
+ 
+.activityCard {
+    box-shadow: 0 0 20px 0px #0000002e;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 25%;
+}
+
+.activityCardImg {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.activityButton {
+    color: inherit;
+    text-decoration: none;
+}
+
+.activityCardTitle {
+    margin: 15px 20px;
+}
+
+
+
+
+.footer {
+    background-color: #F2F2F2;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.footerColumn {
+    display: flex;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+ .footerColumn1 {
+    width: 30%;
+    padding: 30px 30px;
+ }
+
+.footerColumnLink {
+    display: block;
+    margin: 15px 0;
+}
+
+i.searchFormSubmitinputIcon.fas.fa-search {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .main {
+        padding: 20px;
+    }
+
+    .hosting {
+        flex-direction: column-reverse;
+        margin: -20px;
+        }
+    .hostingPopular, .hostingMarseille {
+        width: 100%;
+        }
+    
+    .hostingPopular {
+        border-radius: 0%;
+        gap: 10px;
+    }
+    .hostingPopularTitle {
+        margin-bottom: 20px;
+    }
+    .hostingPopularCardIcon {
+        font-size: small;
+        
+    }
+   
+
+    .hostingMain {
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hostingMarseille {
+        width: 100%;
+        background-color: transparent;
+        gap: 20px;
+    }
+    .hostingMainCard {
+        width: 100%;
+    }
+
+
+    .footerColumn {
+        flex-direction: column;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .headerImg {
+        margin-top: 20px;
+    }
+    .headerNav {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .headerNavLink {
+        border-top: none;
+        border-bottom: 3px solid #F2F2F2;
+        width: 50%;
+        text-align: center;
+    }
+
+    .headerNavLink:hover {
+        border-top: none;
+        border-bottom: solid;
+    }
+
+    .searchForm {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .searchFormInput {
+        width: 100%;
+    }
+  
+    .searchFormSubmitInputText {
+        display: none;
+    }
+
+    .searchFilters {
+        justify-content: space-between
+    }
+
+    .searchFiltersTitle {
+        width: 100%;
+    }
+    .searchFiltersFilter {
+        margin-right: 0px;
+        width: 48%;
+        height: 50px;
+    }
+
+    .searchFiltersFilterTitle {
+        margin-right: 0px;
+    }
+
+
+    .searchResultWrapIcon {
+        width: 40px;
+        height: 30px;
+    }
+
+    .activityMarseille {
+        width:100%;        
+        flex-wrap: wrap;
+    }
+
+    .activityCard{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .activityCardImg{
+        height: 130px;
+        width: 100%;
+
+    }
+    .activityButton {
+        height: 50px;
+        width: 100%;
+    }
+
+    .footer {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .footerColumn1 {
+        width: 100%;
+    }
+
+
+
+    i.searchFormSubmitinputIcon.fas.fa-search {
+        display: inline;
+    }
+
+}
